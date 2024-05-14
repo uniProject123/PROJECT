@@ -7,8 +7,9 @@ sudo apt update
 sudo apt install -y python3 python3-pip python3.12-venv
 
 # Create and Source the Environment
-RUN python3 -m venv /opt/venv
-ENV PATH="/opt/venv/bin:$PATH"
+python3 -m venv venv
+source venv/bin/activate
+ 
 
 # Install PyTorch and torchvision (assuming ARM architecture)
 sudo pip install torch torchvision
