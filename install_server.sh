@@ -9,7 +9,7 @@ sudo apt-get install -y python3 python3-pip
 # Install PyTorch and torchvision
 sudo pip3 install torch torchvision
 
-# Install FLOR library
+# Install FL library
 sudo pip3 install flwr
 
 echo "Server installation completed successfully."
