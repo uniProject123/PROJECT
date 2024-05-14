@@ -11,9 +11,9 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 # Install PyTorch and torchvision (assuming ARM architecture)
-sudo pip3 install torch torchvision
+sudo pip install torch torchvision
 
 # Install FL library
-sudo pip3 install flwr
+sudo pip install flwr
 
 echo "Client installation completed successfully."
